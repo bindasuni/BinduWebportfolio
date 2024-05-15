@@ -1,0 +1,94 @@
+body /*Tag Selector*/
+{
+    background-image:url(image/binda7.jpg);
+    background-repeat:repeat;
+    background-size: cover; 
+    width:device-width;
+}
+#bg /*Id Selector*/
+{
+    
+    background-repeat:repeat;
+    background-size: cover; 
+    width:device-width;
+    
+}
+#a
+{
+    font-weight: 900;
+    line-height: 0.5%;
+    text-decoration-line: underline;
+    color:lavender;
+    margin: 40px  70px;
+}
+.login /*Class Selector*/
+{
+    margin-top: 150px;
+    padding: 80px 30px;
+}
+.b1
+{
+    /*color:rgba(2, 50, 100, 0.836);*/
+    color:rgba(217, 148, 9, 0.842);
+    font-weight: 500;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    text-decoration-line: none;
+    margin:30px 60px 20px 30px;
+}
+
+table
+{
+    margin-left:250px;
+    font-weight: 600;
+    background-image: url(https://media.istockphoto.com/id/532378051/photo/night-sky-with-stars-and-clouds.jpg?s=612x612&w=0&k=20&c=M6HA8A8tq5cbJsAU0y39Qx6dTyoIti-CaYMi9WWbB_U=);
+    width:device-width;
+
+
+}
+th
+{
+    color: cornsilk;
+    align-content: center;
+}
+td
+{
+    color:azure;
+    align-content:normal;
+}
+.social-icon
+    {   
+            width: 30px;
+            height: 40px;
+            margin-top:5px;
+            padding:10px;
+    } 
+.row::after 
+    {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .row 
+    {
+        display: flex;
+    }
+          
+    .column 
+    {
+        flex: 33.33%;
+        padding: 5px;
+        height: 50%;
+    }
+    .text
+    {
+        color:lightblue;
+        text-align: center;
+        text-decoration-line:underline;
+    }
+    #available
+    {
+        margin-left: 40px;
+        padding: 40px;
+
+    }
